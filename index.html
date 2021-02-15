@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/5fd76cb737.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+    <title>gallery</title>
+</head>
+
+<body>
+    <section class="colored-section" id="title">
+        <nav class="navbar navigation navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+
+                <a class="navbar-brand logo" href="#"><i class="fas fa-photo-video"></i> gallery</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse collapse__items" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav__items">
+                        <a class="nav-link items" href="#download">Download</a>
+                        <a class="nav-link items" href="#gallery">Overview</a>
+                        <a class="nav-link items" href="#footer">Contacts</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <img class="colored-section-img" src="img/xps-g2E2NQ5SWSU-unsplash.jpg" alt="pictures">
+    </section>
+    <!-- Features -->
+
+    <section class="white-section" id="features">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="features-box col-lg-4">
+                    <i class="fas fa-theater-masks icon__features"></i>
+                    <h3 class="feature-title">Features</h3>
+                    <p>The best and unforgettable moments of our Life.</p>
+                </div>
+                <div class="features-box col-lg-4">
+                    <i class="far fa-sun icon__features"></i>
+                    <h3 class="feature-title">Value</h3>
+                    <p>Let's live in such a way that even the undertaker mourns our demise. <br> Mark Twain.</p>
+                </div>
+                <div class="features-box col-lg-4">
+                    <i class="far fa-check-circle icon__features"></i>
+                    <h3 class="feature-title">Quality</h3>
+                    <p>Quality is when everything is done correctly, even if no one checks. <br> Henry Ford.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-carusel colored-section" id="gallery">
+        <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div>
+                    <h2 class="gallery__header big-header">This is a gallery</h2>
+                    <div class="carousel-item active">
+                        <img class="gallery__img" src="img-gallery/john-thomas-56G7hwY3Z50-unsplash.jpg" class="d-block w-100" alt="...">
+
+                        <span class="img_text">Capture amazing moments.</span>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="gallery__img" src="img-gallery/matt-dodd-MQiPm5Zo1Wo-unsplash.jpg" class="d-block w-100" alt="...">
+
+                        <span class="img_text">Make original decisions.</span>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="gallery__img" src="img-gallery/zhengtao-tang-lFHPiO7OFWE-unsplash.jpg" class="d-block w-100" alt="...">
+                        <span class="img_text">Enjoy the colorful artwork.</span>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Следующий</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- PRICING -->
+
+
+
+    <section class="white-section" id="pricing">
+        <div class="row">
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card text-center">
+                    <div class="card-header price__header">
+                        Price
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title price__title">Free</h5>
+                        <p class="card-text">Only reading.</p>
+                        <a href="#" class="w-100 btn btn-lg btn-outline-dark">Describe</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Осталось X - дней
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card text-center">
+                    <div class="card-header price__header">
+                        Price
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title price__title">5$ </h5>
+                        <p class="card-text">3 services</p>
+                        <p class="card-text">10 posts</p>
+                        <p class="card-text">Unlimited reading</p>
+                        <a href="#" class="w-100 btn btn-lg btn-dark">Pay</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Осталось X - дней </div>
+                </div>
+            </div>
+
+            <div class="pricing-column col-lg-4">
+                <div class="card text-center">
+                    <div class="card-header price__header">
+                        Price
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title price__title">15$</h5>
+                        <p class="card-text">Unlimited services</p>
+                        <p class="card-text">Unlimited posts</p>
+                        <p class="card-text">Unlimited reading</p>
+                        <a href="#" class="w-100 btn btn-lg btn-dark">Pay</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Осталось X - дней </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+
+    <section class="colored-section" id="download">
+        <div class="container-fluid">
+            <h3 class="big-header">You can download yourself</h3>
+            <button type="button" class="btn btn-dark btn-lg download-button google" type="button"><i class="fab fa-google-play button_icon"></i> Download</button>
+            <button type="button" class="btn btn-dark btn-lg download-button apple" type="button"><i class="fab fa-apple button_icon"></i></i> Download</button>
+            <button type="button" class="btn btn-dark btn-lg download-button windows" type="button"><i class="fab fa-windows button_icon"></i> Download</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <section class="white-section" id="footer">
+        <div class="container-fluid">
+            <i class="fab fa-twitter-square social-icon"></i>
+            <a class="social-icon" target="_blank" href="https://www.facebook.com/nikolaj.pelykh"><i class="fab fa-facebook-square"></i></a>
+
+            <i class="fab fa-instagram-square social-icon"></i>
+            <a class="social-icon" href="mailto:nikolajpelykh@gmail.com"><i class="fas fa-envelope"></i></a>
+
+            <p>© Copyright 2020 gellery</p>
+        </div>
+    </section>
+
+</body>
+
+</html>
